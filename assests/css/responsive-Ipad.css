@@ -1,0 +1,133 @@
+/* Ipad 810px resonsive */
+
+
+
+/* Ipad responsive */
+
+@media only screen and (max-width: 888px) {
+    html {
+        font-size: 55%;
+    }
+
+    .hero h1 {
+        font-size: 4.5rem;
+    }
+
+    .hero {
+        height: 19rem;
+        margin: 36px auto;
+        width: 70rem;
+    }
+
+    .hero section svg {
+        height: 60px;
+
+    }
+
+    .banner {
+        height: 35rem;
+    }
+
+    .banner section {
+        top: 36em;
+    }
+
+    .slide-container {
+        width: 100%;
+    }
+
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+
+
+
+}
+
+/* smaller than ipad, lager than android device */
+
+@media only screen and (max-width: 640px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero {
+        width: 90vw;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+    }
+
+    .login-btn {
+        display: flex;
+        align-items: center;
+        height: 4rem;
+    }
+
+    .login,
+    .btn {
+        margin-right: 45px;
+    }
+
+    .burger {
+        display: block;
+    }
+    .nav-menu{
+        display: none;
+        transition: all 0.25s ease-in;
+    }
+    .nav-menu ul {
+        transform: scale(1);
+        height: 24rem;
+        position: absolute;
+        background: #f5f3fc;
+        left: 0%;
+        top: 8rem;
+        width: 100%;
+    }
+    .slide-container {
+        width: 70%;
+      }
+}
+
+.visible {
+    display: block;
+}
+
+
+/* android device */
+@media only screen and (max-width: 435px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero {
+        height: 18rem;
+    }
+    .slide-container {
+        width: 85%;
+      }
+}
+
+@media only screen and (max-width: 374px) {
+    .hero h1 {
+        font-size: 2.8rem;
+        margin-top: 10%;
+    }
+
+    .hero {
+        height: 18rem;
+    }
+
+    .hero section {
+        margin-top: -3%;
+    }
+    .slide-container {
+        width: 85%;
+      }
+}
